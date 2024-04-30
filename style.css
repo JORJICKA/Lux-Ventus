@@ -15,6 +15,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 84px;
+    background-color:#F9F9F9;
 }
 
  /* Header */
@@ -85,6 +86,7 @@ body {
     gap: 19px 22px;
     justify-content: center;
     color: #FFFFFF;
+    margin-bottom: 73px;
 }
 
 .first-section-content span {
@@ -126,7 +128,122 @@ body {
 
 }
 
-.test {
-    color:red;
-    font-size: 200px;
+.topics h2 {
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    color:#262626;
+    margin-bottom: 48px;
 }
+
+.topics-cards {
+    display: flex;
+    max-width: 1274px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 88px;
+}
+
+.topic-card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 51px;
+    padding-bottom: 40px;
+    align-items: center;
+    width: 204px;
+    height: 291px;
+    border-radius: 20px;
+    gap: 20px;
+    box-shadow:0px 6px 6px 0px #0000000D;
+}
+
+.topic-card h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.button {
+    background-color:#4CE0D7;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+.button a {
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    color: #262626;
+}
+
+.fashion {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-top: 52px;
+    width: 1204px;
+    height: 698px;
+}
+
+.fashion-image {
+    height: 360px;
+    width: 1204px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+
+.mallory {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mallory img {
+    border-radius: 50px;
+    padding-left: 64px;
+    padding-right: 15px;
+}
+
+.mallory h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BCBCBC;
+    width: 168px;
+    height: 21px;
+    padding-right: 49px;
+}
+
+.mallory h4 {
+    padding-left: 389px;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 21px; */
+    color: #F25E5E;
+}
+
+.fashion h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #262626;
+    padding-bottom: 23px;
+}
+
+.fashion p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #262626;
+    padding-bottom: 40px;
+}
+
+.read-more {
+    font-weight: 700;
+    font-size: 12px;
+    color: #4CE0D7;
+    padding-bottom: 38px;
+    text-decoration: none;
+}
+
