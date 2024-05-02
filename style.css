@@ -2,22 +2,13 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-<<<<<<< HEAD
     text-decoration: 0;
-=======
-    text-decoration: none;
->>>>>>> e7a8f772b93cbd3d5f242531bc53ce135ca3657a
-
 }
 
 body {
 
     font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
     background-color: #F9F9F9;
-=======
-    background-color:#F9F9F9;
->>>>>>> e7a8f772b93cbd3d5f242531bc53ce135ca3657a
 }
 
 
@@ -140,7 +131,7 @@ body {
 
 
 
-<<<<<<< HEAD
+
 /* Dato */
 
 
@@ -317,28 +308,7 @@ body {
 #read-txt:hover {
     text-decoration: underline;
 }
-=======
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* trending */
->>>>>>> e7a8f772b93cbd3d5f242531bc53ce135ca3657a
 
 .trending-title {
     margin-top: 97px;
@@ -450,7 +420,6 @@ body {
 
 .trending-arrow img {
     margin-right: 26px;
-<<<<<<< HEAD
 }
 
 /* natias section  */
@@ -583,6 +552,4 @@ body {
     color: #4CE0D7;
     font-size: 12px;
     font-weight: 700;
-=======
->>>>>>> e7a8f772b93cbd3d5f242531bc53ce135ca3657a
 }
