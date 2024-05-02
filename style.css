@@ -449,6 +449,11 @@ body {
     gap: 22px;
 }
 
+.footer-a h1 {
+    font-weight: 700;
+    font-size: 26px;
+
+}
 .footer-line{
     width: 100%;
     height: 1px;
