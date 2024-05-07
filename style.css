@@ -80,7 +80,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 1272px;
+    max-width: 1272px;
+    width: 100%;
     height: 559px;
     display: flex;
     flex-direction: column;
@@ -150,6 +151,7 @@ body {
     align-items: center;
     gap: 10px;
     margin-bottom: 88px;
+    flex-wrap: wrap;
 }
 
 .topic-card {
@@ -210,14 +212,23 @@ body {
 }
 
 
-.fashion-image {
+.fashion-image1 {
     position: relative;
     border-radius: 20px;
     margin-bottom: 23px;
+    max-width: 1204px;
+    height: 360px;
+    width: 100%;
+    background-image: url(./photos/fashion.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.fashion-image img {
+.fashion-image1 img {
     border-radius: 20px;
+    width: 100%;
+    display: none;
     
 }
 
@@ -245,6 +256,7 @@ body {
     justify-content:flex-start;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 24px;
     
 }
 
@@ -258,8 +270,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #BCBCBC;
-    width: 168px;
-    height: 21px;
+    /* width: 168px;
+    height: 21px; */
     padding-right: 49px;
 }
 
@@ -318,6 +330,8 @@ body {
 
 .trending-cards {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-between;
     margin-top: 55px;
 }
@@ -494,6 +508,14 @@ body {
 .fashion-image{
     position: relative;
     margin-bottom: -6px;
+    max-width: 548px;
+    width: 100%;
+    height: 367px;
+    border-radius: 20px;
+    background-image: url(./photos/fashion2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fashion-image a{
@@ -511,6 +533,7 @@ body {
 
 .fashion-image img{
     border-radius: 20px;
+    display: none;
 }
 
 
@@ -553,3 +576,8 @@ body {
     font-size: 12px;
     font-weight: 700;
 }
+
+
+
+
+

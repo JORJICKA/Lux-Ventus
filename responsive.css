@@ -1,0 +1,108 @@
+/* Lap-Top */
+
+
+@media screen and (max-width: 1200px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+
+    .navigation a {
+        padding: 8px 20px;
+        font-size: 11px;
+        
+}
+
+    .trending-cards {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+    
+    .fashion-text {
+        margin-left: 24px;
+
+    }
+
+    .fashion-text h1 {
+        font-size: 20px;
+        max-width: 400px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .fashion-p {
+        gap: 65px;
+    }
+
+    .mallory img {
+        margin-left: 20px;
+        
+
+    }
+
+    .mallory h4 {
+        padding-left: 150px;
+    }
+
+    .fashion p   {
+        margin-left: 20px;
+    }
+
+    .fashion h3 {
+        margin-left: 20px;
+    }
+
+    .read-more {
+        margin-left: 20px;
+    }
+
+    .fashion-cards {
+        padding: 0;
+
+    }
+
+    .footer-first {
+        flex-direction: column;
+    }
+    
+}
+
+/* Tablets */
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 576px;
+    }
+    .topics-cards:first-child:first-child {
+        width: 576px;
+        grid-column: 1 / span 2;
+    }
+
+    .topics-cards:nth-child(2) {
+        width: 576px;
+        grid-column: 3 / span 4;
+    }
+
+
+}
+
+
+/* Mobile Phone */
+
+@media screen and (max-width: 576px) {
+
+    .container {
+
+    width: 376px;
+    height: 100px;
+
+
+    }
+    
+}
